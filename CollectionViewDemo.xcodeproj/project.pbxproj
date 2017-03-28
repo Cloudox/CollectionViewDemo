@@ -15,6 +15,9 @@
 		AD9C9F791E8A4110001D910E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9C9F771E8A4110001D910E /* LaunchScreen.storyboard */; };
 		AD9C9F841E8A4110001D910E /* CollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9C9F831E8A4110001D910E /* CollectionViewDemoTests.m */; };
 		AD9C9F8F1E8A4110001D910E /* CollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9C9F8E1E8A4110001D910E /* CollectionViewDemoUITests.m */; };
+		AD9C9F9E1E8A4135001D910E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9C9F9D1E8A4135001D910E /* CollectionViewCell.m */; };
+		AD9C9FA11E8A426A001D910E /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD9C9F9F1E8A426A001D910E /* boy.jpg */; };
+		AD9C9FA21E8A426A001D910E /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD9C9FA01E8A426A001D910E /* girl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		AD9C9F8A1E8A4110001D910E /* CollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9C9F8E1E8A4110001D910E /* CollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		AD9C9F901E8A4110001D910E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9C9F9C1E8A4135001D910E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		AD9C9F9D1E8A4135001D910E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AD9C9F9F1E8A426A001D910E /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
+		AD9C9FA01E8A426A001D910E /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +112,14 @@
 				AD9C9F6D1E8A4110001D910E /* AppDelegate.m */,
 				AD9C9F6F1E8A4110001D910E /* ViewController.h */,
 				AD9C9F701E8A4110001D910E /* ViewController.m */,
+				AD9C9F9C1E8A4135001D910E /* CollectionViewCell.h */,
+				AD9C9F9D1E8A4135001D910E /* CollectionViewCell.m */,
 				AD9C9F721E8A4110001D910E /* Main.storyboard */,
 				AD9C9F751E8A4110001D910E /* Assets.xcassets */,
 				AD9C9F771E8A4110001D910E /* LaunchScreen.storyboard */,
 				AD9C9F7A1E8A4110001D910E /* Info.plist */,
+				AD9C9F9F1E8A426A001D910E /* boy.jpg */,
+				AD9C9FA01E8A426A001D910E /* girl.jpg */,
 				AD9C9F691E8A4110001D910E /* Supporting Files */,
 			);
 			path = CollectionViewDemo;
@@ -246,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9C9FA11E8A426A001D910E /* boy.jpg in Resources */,
+				AD9C9FA21E8A426A001D910E /* girl.jpg in Resources */,
 				AD9C9F791E8A4110001D910E /* LaunchScreen.storyboard in Resources */,
 				AD9C9F761E8A4110001D910E /* Assets.xcassets in Resources */,
 				AD9C9F741E8A4110001D910E /* Main.storyboard in Resources */,
@@ -275,6 +288,7 @@
 			files = (
 				AD9C9F711E8A4110001D910E /* ViewController.m in Sources */,
 				AD9C9F6E1E8A4110001D910E /* AppDelegate.m in Sources */,
+				AD9C9F9E1E8A4135001D910E /* CollectionViewCell.m in Sources */,
 				AD9C9F6B1E8A4110001D910E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
