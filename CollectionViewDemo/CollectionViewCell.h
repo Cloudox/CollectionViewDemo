@@ -13,5 +13,4 @@
 @property (nonatomic, strong) UIImageView *image;// 图片
 @property (nonatomic, strong) UILabel *label;// 文字
 
-
 @end
